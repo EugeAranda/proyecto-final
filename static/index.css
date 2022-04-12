@@ -1,0 +1,386 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "arial";
+}
+
+
+body {
+    background-color:#bfbfbf;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+body h1 {
+    font-size: 20px;
+}
+
+
+#mainContent{
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.default{
+    box-sizing: border-box; 
+    width: 50%;
+    float: left;
+    height: 500px
+}
+
+.imgNota img{
+    width: 100%;
+}
+
+.header{
+    background: #fff;
+    color: tomato;
+    padding: 0.5em 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#contenedor{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contenedor img{
+    width: 100%;
+}
+
+
+.tarjeta {
+    background: #bfbfbf;
+    width: 30%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+
+li{
+    font-size: 20px;
+}
+
+.formulario {
+    padding: 2rem;
+    margin: 0 auto;
+    border-radius: 4px;
+    font-family:'Courier New', Courier, monospace;
+    color: #f866c1;
+}
+
+.formulario h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #282931;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.formulario p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.formulario a{
+    color: white;
+    text-decoration: none;
+}
+
+.formulario a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.formulario .botons{
+    width: 100px;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.links{
+    background-color: #282931;
+    margin-top: 3%;
+}
+
+.footer{
+    background: #f866c1;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
+@media(min-width:320px) and(max-width: 480px) {
+    #contenedor{
+        display:flex;
+    }
+    #contenedor article{
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+
+
+}
+
+.menú-principal{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.menú-principal li a{
+    color: white;
+    text-decoration: none;
+}
+
+#form-contact{
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media only screen and (max-width: 380px)
+{
+    .logo-container{
+        max-width: 55% !important;
+    } 
+}
+
+
+.logo-container{
+    margin: 0 auto;
+    background-color: #f866c1;
+}
+
+#quienesSomos{
+    width: 20%;
+}
+
+.h1-quienes{
+    font-size: 2rem;
+}
+.quienes-p{
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.titulo{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.data{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+}
+
+.redsocial, .contacto, .direccion{
+    text-align: center;
+    flex: 1 0;
+}
+
+@media only screen and (max-width: 380px)
+{
+    .redsocial h3, .contacto h3, .direccion h3{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .direccion span{
+        font-size: 10px;
+    }
+    .quienes-p{
+        font-size: 1rem;
+    }
+}
+
+.btn-dark{
+    color:  #f866c1;
+}
+
+.row{
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.textos p{
+    padding: 5%;
+    
+}
+
+.textos h2{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+figure img{
+    width: 100%;
+}
+
+figure{
+    margin: 0;
+}
+
+@media only screen and (max-width: 414px)
+{
+        .especiales-logo{
+            width: 100% !important;
+        }
+        .textos p {
+            font-size: 0.938em;
+        }
+}
+
+.card{
+    background-color: #d4d3d3;
+    margin: 1%;
+}
+
+.body-index{
+    display:flex;
+
+     flex-direction:column;
+
+     min-height:100vh;
+}
+
+.main-index{
+    flex: 1;
+}
+
+.logo-container-index{
+    width: 7%;
+    margin-left: 2%;
+}
+
+@media screen and (max-width: 419px) {
+    .logo-container-index{
+        width: 25%;
+        margin-left: 2%;
+    }
+    .card-body{
+        padding: 0;
+    }
+    .recomendaciones{
+        font-size: 1.5rem !important;
+    }
+    .covid-19 p {
+        font-size: 1rem !important;
+    }
+    .contacto span{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 419px) and  (max-width:900px){
+    .logo-container-index{
+        width: 15%;
+        margin-left: 2%;
+    }
+    .menú-principal li a{
+        font-size: 15px;
+    }
+}
+
+.logo{
+   width: 100%; 
+}
+
+
+header{
+    background-color: #212529;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menú-principal li{
+    padding: 0 15px;
+}
+
+.menú-principal li a:hover{
+    color: #f866c1;
+}
+
+@media screen and (max-width: 419px) {
+    .menú-principal li a{
+        font-size: 10px;
+    }
+}
+
+.carousel-inner, .carousel-item img{
+    height:75vh;
+}
+
+.carousel-item img{
+    object-fit: scale-down;
+}
+
+.carousel-caption h5{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.carousel-caption p{
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 1rem;
+}
+
+
+.surgentes{
+    width: 584px;
+    height: 498px;
+    margin: 0 auto;
+}
+
+.covid-19{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    background-color: rgb(40, 40, 40);
+}
+.covid-19 p{
+    font-size: 1.5rem;
+    font-family: sans-serif ;
+    color: #f866c1;
+}
+
+.recomendaciones{
+    font-size: 2rem;
+    color: white;
+    font-weight: bolder;
+}

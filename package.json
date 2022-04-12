@@ -1,0 +1,30 @@
+{
+  "name": "proyectofinal",
+  "requires": true,
+  "version": "0.0.1",
+  "description": "Euge Aranda - Proyecto Final",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EugeAranda/ProyectoFinal.git"
+  },
+  "author": "Euge Aranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EugeAranda/ProyectoFinal/issues"
+  },
+  "homepage": "https://github.com/EugeAranda/ProyectoFinal#readme"
+}
