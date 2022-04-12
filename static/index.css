@@ -177,6 +177,12 @@ li{
     width: 20%;
 }
 
+@media only screen and (max-width: 380px)
+{
+    #quienesSomos{
+        width: 50%;;
+    } 
+}
 .h1-quienes{
     font-size: 2rem;
 }
@@ -362,7 +368,7 @@ header{
 
 
 .surgentes{
-    width: 584px;
+    width: 378px;
     height: 498px;
     margin: 0 auto;
 }
@@ -380,6 +386,7 @@ header{
 }
 
 .recomendaciones{
+
     font-size: 2rem;
     color: white;
     font-weight: bolder;
